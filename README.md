@@ -7,6 +7,7 @@ ChatterBox is a web application that allows users to register, confirm their ema
     Spring Boot
     Spring Data JPA
     Spring Security
+    Websockets
     PostgreSQL
     Hibernate
     Lombok
@@ -23,7 +24,7 @@ User authentication: Registered users can log in using their credentials.
 
 User authorization: The application distinguishes between regular users and administrators.
 
-Conversation functionality: Users can engage in conversations with other users, creating and responding to messages.
+Conversation functionality: Users can engage in conversations with built-in chat app made with usage of websockets
 
 Database persistence: User and token information is stored in a MySQL database.
 
