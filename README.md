@@ -46,4 +46,9 @@ Install my-project with npm
     Access the application in your web browser at http://localhost:8080
 ```
 ## Screenshots
+![Alt text](https://github.com/mich-wierzch/ChatterBox/blob/master/login.png)
+![Alt text](https://github.com/mich-wierzch/ChatterBox/blob/master/register.png)
+![Alt text](https://github.com/mich-wierzch/ChatterBox/blob/master/emailconf.png)
+![Alt text](https://github.com/mich-wierzch/ChatterBox/blob/master/email.png)
+![Alt text](https://github.com/mich-wierzch/ChatterBox/blob/master/chatusername.png)
 ![Alt text](https://github.com/mich-wierzch/ChatterBox/blob/master/chat.png)
