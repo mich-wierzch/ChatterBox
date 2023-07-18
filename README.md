@@ -45,4 +45,5 @@ Install my-project with npm
     
     Access the application in your web browser at http://localhost:8080
 ```
-    
+## Screenshots
+(https://github.com/mich-wierzch/ChatterBox/blob/master/chat.png)
