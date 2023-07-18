@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <title>ChatterBox</title>
+  <link rel="stylesheet" type="text/css" href="/css/login.css"/>
+</head>
+<body>
+
+
+
+
+<div class="login">
+  <h1>ChatterBox</h1>
+  <form name="f" th:action="@{/api/v1/registration}" method="post">
+    <input type="text" name="username" placeholder="Username" required="required" pattern=".{6,}" title="Please enter at least 6 characters" />
+    <input type="email" name="email" placeholder="Email Address" required="required"/>
+    <input type="password" name="password" placeholder="Password" required="required" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+           title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" />
+    <button type="submit" class="btn btn-primary btn-block btn-large">Register</button>
+    <p>Already a member? <a href="/login">Log in now.</a></p>
+  </form>
+</div>
+
+
+
+</body>
+</html>
