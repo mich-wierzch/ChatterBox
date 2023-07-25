@@ -33,8 +33,6 @@ public class UserService implements UserDetailsService {
                 .isPresent();
 
         if (userExists){
-            //TODO: CHECK IF ATTRIBUTES ARE THE SAME AND
-            //TODO: IF EMAIL NOT CONFIRMED SEND CONFIRMATION EMAIL.
             throw new IllegalStateException("Username taken");
         }
         if (userEmailExists){
