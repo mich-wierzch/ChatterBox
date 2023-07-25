@@ -26,7 +26,7 @@ User authorization: The application distinguishes between regular users and admi
 
 Conversation functionality: Users can engage in conversations with built-in chat app made with usage of websockets
 
-Database persistence: User and token information is stored in a MySQL database.
+Database persistence: User and token information is stored in a Postgres database.
 
 Security: Spring Security was used to handle authentication and authorization for the application. Passwords are encrypted using BCrypt.
 
